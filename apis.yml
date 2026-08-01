@@ -1,7 +1,17 @@
 aid: sketchpro
 name: Sketchpro
-description: Sketchpro is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SketchPro is an AI copilot for Autodesk Revit that helps architects and
+  engineers automate construction documentation directly inside their live
+  project models. Delivered as a native Revit plugin (not a public developer
+  API), it executes natural-language instructions to handle dimensioning,
+  tagging, view creation, sheet setup, and scheduling, while adapting to each
+  firm's standards, naming conventions, and documentation logic through an
+  admin-configured AI Knowledge Base. Founded in 2023 and used by architecture
+  practices including SOM, 10 Design, and Little, SketchPro is backed by Khosla
+  Ventures. As of this enrichment pass the company exposes no public API,
+  developer portal, OpenAPI specification, SDKs, or event/webhook surface; API
+  access is described as "contact vendor / not publicly documented."
 url: https://raw.githubusercontent.com/api-evangelist/sketchpro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,32 @@ x-backed-by:
 - khosla-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://sketchpro.ai/images/opengraph_sp_logo.png
 tags:
 - Company
+- Artificial Intelligence
+- Architecture
+- Construction
+- AEC
+- Revit
+- BIM
+- Documentation
+- Copilot
+- Productivity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,16 @@ maintainers:
 common:
 - type: Website
   url: https://sketchpro.ai/
+- type: SignUp
+  url: https://sketchpro.ai/request-demo
+- type: TermsOfService
+  url: https://sketchpro.ai/copilot/terms
+- type: Support
+  url: https://sketchpro.ai/faq
+- type: Blog
+  url: https://sketchpro.ai/news
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
